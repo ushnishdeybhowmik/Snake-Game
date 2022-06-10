@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Snake Game - vulcanDev.exe" version="1.0.0.0" publicKeyToken="f4a72c15d9e31433" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Snake Game - vulcanDev" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Snake Game - vulcanDev.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Snake Game - vulcanDev.exe" size="989152">
+      <assemblyIdentity name="Snake Game - vulcanDev" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Q4gb5H3lHSdJG03+L9g8CXl0ZNcxkwP5YSBl6tykU5A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Snake Game - vulcanDev.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=VULCAN-FX505DT\vulcan" issuerKeyHash="5c0625bcd0f4ddc4da4ba19fab2a38444f273574" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>XRsqXN2am24WGZYFXgDhyIm3ezatUdlJ4HpCrH1h+iE=</DigestValue></Reference></SignedInfo><SignatureValue>yAlEdBsgwX2PfgUaCmx2BV5Osnfa3bSfXWQYssF5eECHwN1BeFetAQeF5YJhc3tgAFYtHr/4LG7hINDBM9r7eKgNQmKqcXufujdDgHk+4c0JLHVvQF/3qDoMbeQlEWDTxk9Mwjn8kNr/8zGSPpnoSDFNsx0voUtfC1oJnHCgVqA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>4fnKmUWsuIFzh86h6s6oOwPmYMQ4sk7GqCBwdz5annOyfY8wckHu1hhmsL0ygvyrxaTgH+2UNyJmlpVMsS4LpF2D6mJkMx5e4vZkaMS+Gtz6jMbMBC6SuFurCGkfqXmyr/KrUGLNLdU1bFztiQ1YUleZGmcutVei08VaFftXfpE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="21fa617dac427ae049d951ad367bb789c8e1005e059619166e9b9add5c2a1b5d" Description="" Url=""><as:assemblyIdentity name="Snake Game - vulcanDev.exe" version="1.0.0.0" publicKeyToken="f4a72c15d9e31433" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=VULCAN-FX505DT\vulcan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>R8Jxi7N909qC7XRFyfcCXmGKUMUUO/mhqzFqDk4K6IU=</DigestValue></Reference></SignedInfo><SignatureValue>XCrJF8YV3Eh+eGXwAYCtXwfDiSr6pyZGWbJLrwcdlkRPShPI62wSoQ8WxqaQmpZJLyWqY2yqp/ZX8BSmIE8PirB1U4EsVmnS0SpzXBOPwpeutUQO7bSkwGCXPhYEijTsc9NJFG2cbP/kY1b2MZEy7gfObKaYr1pAR443iEvfYnw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>4fnKmUWsuIFzh86h6s6oOwPmYMQ4sk7GqCBwdz5annOyfY8wckHu1hhmsL0ygvyrxaTgH+2UNyJmlpVMsS4LpF2D6mJkMx5e4vZkaMS+Gtz6jMbMBC6SuFurCGkfqXmyr/KrUGLNLdU1bFztiQ1YUleZGmcutVei08VaFftXfpE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQc3CLO/XU75tEzNTnH0AH7zANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioAVgBVAEwAQwBBAE4ALQBGAFgANQAwADUARABUAFwAdgB1AGwAYwBhAG4wHhcNMjIwNjA5MjMzMTAxWhcNMjMwNjEwMDUzMTAxWjA1MTMwMQYDVQQDHioAVgBVAEwAQwBBAE4ALQBGAFgANQAwADUARABUAFwAdgB1AGwAYwBhAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOH5yplFrLiBc4fOoerOqDsD5mDEOLJOxqggcHc+Wp5zsn2PMHJB7tYYZrC9MoL8q8Wk4B/tlDciZpaVTLEuC6Rdg+piZDMeXuL2ZGjEvhrc+ozGzAQukrhbqwhpH6l5sq/yq1BizS3VNWxc7YkNWFJXmRpnLrVXotPFWhX7V36RAgMBAAEwDQYJKoZIhvcNAQELBQADgYEASJFw6MASq/Y7xh3UOMedEdKfUf8Qlow5brZL/EvUklEBipNIiCmBK8fD++qrXQXAhLHRn5Wb32LSm2M3krQJHz/W3mnelLfYo0E5x/SulvzPhmtR/bIOsNydoGGCMGsmTVlUxMjjy7dCrFNLzWuq/HCIYoThbtq/QtNKuIDxbqY=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
